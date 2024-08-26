@@ -1,4 +1,7 @@
+/*
 
+
+*/
 public class RemoveDuplicateFromSortedArray {
 	public static void main(String[] args) 
 	{
