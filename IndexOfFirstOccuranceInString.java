@@ -1,4 +1,5 @@
 /*
+*/
 public class IndexOfFirstOccuranceInString {
 
 	public static void main(String[] args) {
