@@ -1,47 +1,8 @@
-/* Search Insert Position :- 
 
-Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
-
-You must write an algorithm with O(log n) runtime complexity.
-
- 
-
-Example 1:
-
-Input: nums = [1,3,5,6], target = 5
-Output: 2
-Example 2:
-
-Input: nums = [1,3,5,6], target = 2
-Output: 1
-Example 3:
-
-Input: nums = [1,3,5,6], target = 7
-Output: 4
-Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
-
-You must write an algorithm with O(log n) runtime complexity.
-
- 
-
-Example 1:
-
-Input: nums = [1,3,5,6], target = 5
-Output: 2
-Example 2:
-
-Input: nums = [1,3,5,6], target = 2
-Output: 1
-Example 3:
-
-Input: nums = [1,3,5,6], target = 7
-Output: 4
-
-*/
 public class SearchInsertPosition {
 	public static void main(String[] args) {
 		int [] nums = {1,2,3,4,5};
-		System.out.println(searchInsert(nums, 2));
+		System.out.println(searchInsert(nums, 9));
 	}
 	
 	static int searchInsert(int [] nums, int target)
@@ -51,18 +12,18 @@ public class SearchInsertPosition {
 		
 		while(startIndex <= lastIndex)
 		{
-			int mid = (startIndex + lastIndex)/2;
-			if(nums[mid] == target)
+			int midIndex = startIndex + (lastIndex - startIndex)/2;
+			if(nums[midIndex] == target)
 			{
-				return mid;
+				return midIndex;
 			}
-			else if (nums[mid]>target) 
+			else if (target < nums[midIndex]) 
 			{
-				lastIndex = mid -1;
+				lastIndex = midIndex -1;
 			}
 			else 
 			{
-				startIndex = mid +1;
+				startIndex = midIndex +1;
 			}
 		}
 		return startIndex;
