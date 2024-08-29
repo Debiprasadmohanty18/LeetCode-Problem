@@ -1,4 +1,4 @@
-/*
+/* Search Insert Position :- 
 */
 public class SearchInsertPosition {
 	public static void main(String[] args) {
