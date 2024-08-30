@@ -1,4 +1,4 @@
-/*
+/* SQRT(x) :- 
 */
 public class SQRT {
 	public static void main(String[] args) {
