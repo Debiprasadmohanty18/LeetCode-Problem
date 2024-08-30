@@ -4,8 +4,7 @@ Given a non-negative integer x, return the square root of x rounded down to the 
 
 You must not use any built-in exponent function or operator.
 
-For example, do not use pow(x, 0.5) in c++ or x ** 0.5 in python.
- 
+For example, do not use pow(x, 0.5) in c++ or x ** 0.5 in python. 
 
 Example 1:
 
@@ -26,6 +25,7 @@ public class SQRT {
 	
 	static int sqrtNum(int x)
 	{
+		// return (int) Math.sqrt(x);  // This Line also give the correct answer.
 		int start = 1;
 		int end = x;
 		int answer = 0;
