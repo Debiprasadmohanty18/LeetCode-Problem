@@ -1,4 +1,5 @@
-
+/*
+*/
 public class ConsecutiveCharacters {
 
 	public static void main(String[] args) 
