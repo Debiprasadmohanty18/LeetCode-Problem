@@ -1,4 +1,4 @@
-/*
+/* Consecutive Characters :-
 */
 public class ConsecutiveCharacters {
 
