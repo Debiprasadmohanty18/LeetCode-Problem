@@ -1,4 +1,4 @@
-/*
+/* First Unique Character in a String :- 
 */
 
 package com.tanmay.LeetCodeEasyProblems;
