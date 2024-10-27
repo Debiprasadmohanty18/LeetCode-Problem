@@ -15,10 +15,7 @@ Output: 2
 
 Example 3:
 Input: s = "aabb"
-
 Output: -1
-
- 
 
 */
 
