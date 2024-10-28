@@ -1,4 +1,4 @@
-/*
+/* Power Of Three :- 
 */
 
 package com.tanmay.LeetCodeEasyProblems;
