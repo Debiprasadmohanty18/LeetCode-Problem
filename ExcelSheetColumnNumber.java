@@ -1,6 +1,6 @@
 /* Excel Sheet Column Number :- 
  
- Given a string columnTitle that represents the column title as appears in an Excel sheet, return its corresponding column number.
+Given a string columnTitle that represents the column title as appears in an Excel sheet, return its corresponding column number.
 
 For example:
 
@@ -13,7 +13,6 @@ AA -> 27
 AB -> 28 
 ...
  
-
 Example 1:
 Input: columnTitle = "A"
 Output: 1
