@@ -1,3 +1,6 @@
+/* Number of Good Pairs :-
+*/
+
 package Array;
 
 public class NumberOfGoodPairs {
